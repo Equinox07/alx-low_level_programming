@@ -24,7 +24,7 @@ else if (n % 10 < 6 && n % 10 != 0)
 }
 else
 {
-	printf("and is zero\n");
+	printf("and is 0\n");
 }
 return (0);
 }
