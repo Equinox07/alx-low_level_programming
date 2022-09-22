@@ -15,7 +15,7 @@ int main(void)
 
 for (i = 48; i < 58; i++)
 {
-utchar(i);
+putchar(i);
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
