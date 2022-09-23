@@ -12,10 +12,10 @@ void _strlen(char *s)
 
 	i = 0;
 
-	while (s[i] != '\0')
+	while (*(s + i ) != '\0')
 	{
 		i++;
 	}
-	printf("%d\n", i);
+	return (i);
 
 }
